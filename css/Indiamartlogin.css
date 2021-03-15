@@ -1,0 +1,84 @@
+/* login form styling */
+.login-form{
+	width: 350px;
+	color: #000;
+	background: #fff;
+	padding: 30px 20px;
+	border-radius: 5px;
+	border-width:1px;  
+	margin: 0 auto;
+	margin-top: 80px;
+    /* border-style:outset; */
+	box-shadow: 5px 5px rgba(170, 164, 164, 0.671);
+	border: 1px solid rgba(170, 164, 164, 0.671);
+}
+.login-form .main-logo{
+	text-align: center;
+	font-size: 30px;
+}
+.login-form .main-logo p{
+	/* top: 10%;
+	left: 46%;
+	position: absolute; */
+	font-weight: bold;
+	color: #494949;
+	text-decoration:underline;
+	font-family: "Arial verdana" sans-serif;
+}
+.main-logo p span{
+	 color: #37a000;text-decoration:underline;
+	font-family: "Mountains of Christmas", cursive;
+}
+
+/* form styling */
+.login-form form{
+	margin-top: 20px;
+}
+.login-form form p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgb(78, 75, 75);
+}
+.login-form form input{
+   
+   box-sizing: border-box;
+   margin: 10px 0;
+   padding: 10px 20px;
+   width: 100%;
+}
+.login-form form button{
+	margin: 10px 0; 
+	padding: 5px;
+	font-size: 20px;
+	font-family: "Times New Roman", Times, sans-serif;
+	width: 100%;
+	border-radius: 50px;
+	background-color: #ffd76b;
+	border-style: outset;
+}
+.login-form form button:hover{
+	background-color:#ffde84de;
+	cursor: pointer;
+}
+.login-form form button:focus{
+	outline: none;
+}
+.login-form .forget ul li{
+	margin: 10px 0;
+	font-size: 13px;
+	font-family:  "Times New Roman", Times, sans-serif;
+	text-decoration: underline;
+
+		
+}
+
+.login-form .last{
+	color: #494949;
+    font-family: monospace;
+	/* text-align: justify; */
+	text-align: center;
+	/* text-align-last: justify; */
+	/* overflow-wrap: break-word; */
+}
